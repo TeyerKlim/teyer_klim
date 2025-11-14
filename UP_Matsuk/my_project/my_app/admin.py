@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Motosalon, MotorTransport, Dealer, Client, Accessory, Service, Deal, DealMotorTransport, DealService, DealAccessory  
+from .models import Motosalon, MotorTransport, Dealer, Client, Accessory, Service, Deal, DealMotorTransport, DealService, DealAccessory
+
 admin.site.register(Motosalon)
 admin.site.register(MotorTransport)
 admin.site.register(Dealer)
